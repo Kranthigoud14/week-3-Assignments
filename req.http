@@ -1,8 +1,8 @@
-### Read all users
+### Read all products
 GET http://localhost:4000/product-api/products
-### Read user by id
+### Read user by products
 GET http://localhost:4000/product-api/products/102
-### Create user
+### Create products
 POST http://localhost:4000/product-api/products
 Content-Type: application/json
 
@@ -12,7 +12,7 @@ Content-Type: application/json
   "price": 30000,
   "brand": "samsung"
 }
-### Update user
+### Update products
 PUT http://localhost:4000/product-api/products/102
 Content-Type: application/json
 
@@ -21,5 +21,6 @@ Content-Type: application/json
   "price": 30000,
   "brand": "Samsung"
 }
-### Delete user
+### Delete products
 DELETE http://localhost:4000/product-api/products/102
+
